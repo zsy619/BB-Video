@@ -140,7 +140,7 @@ When writing:
 
 ## Following the voiceover (explain): explainers in promo styles
 
-`node explainer/scripts/new.mjs <dir> --style <style>` (any style except whiteboard, riso and ink; the full style table is in `../../SKILL.md`) hands off to `promo/scripts/new.mjs --explain`: it creates `script.json`, a placeholder `timeline.js` and the skeleton below. Write the narration → `python3 explainer/scripts/tts.py <dir>` → write the picture → `node promo/scripts/render.mjs <dir>`.
+`node explainer/scripts/new.mjs <dir> --style <style>` (any style except whiteboard, riso and ink; the full style table is in `../../styles/INDEX.md`) hands off to `promo/scripts/new.mjs --explain`: it creates `script.json`, a placeholder `timeline.js` and the skeleton below. Write the narration → `python3 explainer/scripts/tts.py <dir>` → write the picture → `node promo/scripts/render.mjs <dir>`.
 
 ```js
 PROMO.film({
